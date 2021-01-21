@@ -1,0 +1,69 @@
+.TH pass-clip 1 "December 2019" "pass-clip"
+
+.SH NAME
+pass clip - A \fBpass\fP(1) extension that lets you quickly copy to
+clipboard passwords using \fBfzf\fP(1) or \fBrofi\fP(1).
+
+.SH SYNOPSIS
+\fBpass clip\fP [options]
+
+.SH DESCRIPTION
+\fBpass clip\fP  Provide an interactive solution to copy passwords to
+the clipboard. It will show all pass-names in fzf. One can search for a
+keyword before fzf starts, as well as view the password in the terminal
+(pass default) if they wish.
+.B MacOS
+compatible.
+
+.SH OPTIONS
+
+.TP
+\fB\-s\fB, \-\-show\fR
+Show password information in terminal (pass default)
+.TP
+\fB\-t <term>\fB, \-\-term <term>\fR
+Start fzf with a term already being searched for
+.TP
+\fB\-h\fB, \-\-help\fR
+Show usage message.
+
+.SH SEE ALSO
+.BR fzf(1),
+.BR pass(1),
+
+.SH AUTHORS
+.B pass clip
+was written by
+.MT ibizapeanut@gmail.com
+Pierre PENNINCKX
+.ME .
+
+.SH EDITS
+.B pass clip
+for
+.B MacOS
+made compatible by
+.MT burnsac@me.com
+Lucas Burns
+.ME .
+
+.SH ACKNOWLEDGMENTS
+Thanks to
+.B roddhjav
+https://github.com/roddhjav for creating
+.BR pass-update(1)
+https://github.com/roddhjav/pass-update from which this script is heavily inspired.
+
+.SH COPYING
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
