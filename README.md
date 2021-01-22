@@ -4,7 +4,7 @@ A modified extension for the Unix password manager [pass](https://www.passwordst
 
 ### Demo
 -----------------------------------------
-![pass-clip demo](https://lucasburns.xyz/images/clip.gif)
+![pass-clip demo](https://lucasburns.xyz/gallery/media/large/clip.gif)
 
 ### Installation
 -----------------------------------------
