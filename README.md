@@ -4,12 +4,12 @@ A modified extension for the Unix password manager [pass](https://www.passwordst
 
 ### Demo
 -----------------------------------------
-![pass-clip demo](https://lucasburns.xyz/gallery/media/large/clip.gif)
+![pass-clip demo](https://burnsac.xyz/gallery/media/large/clip.gif)
 
 ### Installation
 -----------------------------------------
 ```sh
-git clone https://github.com/burnsac5040/pass-clip-mac.git
+git clone https://github.com/lmburns/pass-clip-mac.git
 cd pass-clip-mac
 make install
 ```

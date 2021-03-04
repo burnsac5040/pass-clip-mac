@@ -22,7 +22,7 @@
 # - The original program in its current shape and form was not OSX compliant.
 #   This version is.
 
-################## -- Modifications by burnsac5040 -- ##################
+################## -- Modifications by lmburns -- ##################
 # - Removed rofi and is only compatible with fzf
 # - Added a show option (pass' default command)
 # - Removed everyhting else including generating new passwords
